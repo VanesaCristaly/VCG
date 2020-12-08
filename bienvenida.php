@@ -1,8 +1,9 @@
-<title>Computación en el Servidor Web</title></html> <body style="background-color: hotpink;"> 
-	<p>Desarrollo web avanzado</p> 
-	<p>Vanesa Cid Garcia </p> 
-	<p>Octavio Aguirre Lozano</p> 
-    <p>04 de diciembre 2020</p> 
+<title>Computación en el Servidor Web</title></html > <body style="background-color: hotpink;" align="center"> 
+	<H1 align="center"><strong>Desarrollo web avanzado</strong></H1> 
+	<p align="center"><strong>Vanesa Cid Garcia </strong></p> 
+    <p align="center"><strong>Octavio Aguirre Lozano</strong></p> 
+    <p align="center"><strong>Bienvenido</strong></p> 
+    <p align="center"><strong>04 de diciembre 2020</strong></p> 
     <br>
     <br>
 <?php 
@@ -37,7 +38,7 @@ class AccesoUsuario
         
         ?>
 
-	<form action="inicio.html" method="post">
+	<form action="inicio.html" method="post" align="center">
     <br><button type="submit">Iniciar Compra</button>
 	
 	</form>

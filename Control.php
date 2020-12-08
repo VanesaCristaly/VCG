@@ -1,12 +1,11 @@
-
-<title>Computación en el Servidor Web</title></html> <body style="background-color: hotpink;"> 
-	<p>Desarrollo web avanzado</p> 
-	<p>Vanesa Cid Garcia </p> 
-	<p>Octavio Aguirre Lozano</p> 
-    <p>04 de diciembre 2020</p> 
+<title>Computación en el Servidor Web</title></html > <body style="background-color: hotpink;" align="center"> 
+	<H1 align="center"><strong>Desarrollo web avanzado</strong></H1> 
+	<p align="center"><strong>Vanesa Cid Garcia </strong></p> 
+    <p align="center"><strong>Octavio Aguirre Lozano</strong></p> 
+    <p align="center"><strong>Resultados</strong></p> 
+    <p align="center"><strong>04 de diciembre 2020</strong></p> 
     <br>
     <br>
-
 <?php
 $TotalesBebidas=0;
 $TotalesDulces=0;
@@ -273,17 +272,18 @@ echo "<br/>";
 
 while (++$sumat < 20)
 { 
-echo "<br/>"; 
-echo "<br/>"; 
-} echo "Felicidades Compraste el minimo total de pesos en producto <br />"; 
+echo "<br/>";
+echo $sumat ;
+
+} //echo "Felicidades Compraste el minimo total de pesos en producto <br />"; 
 
 
  do{
     echo "<br/>"; 
-       echo "<br/>"; 
-       echo "<br/>"; 
+       echo $count; 
+    
      }while (++$count < 2);
-     echo "Felicidades adquiriste la cantidad minima de productos a comprar<br>";
+   //  echo "Felicidades adquiriste la cantidad minima de productos a comprar<br>";
 
 
 ?>
